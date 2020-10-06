@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-ipod/static/css/main.f50f0f23.chunk.css",
+    "main.js": "/react-ipod/static/js/main.bd0be2bd.chunk.js",
+    "main.js.map": "/react-ipod/static/js/main.bd0be2bd.chunk.js.map",
+    "runtime-main.js": "/react-ipod/static/js/runtime-main.b9ab00ad.js",
+    "runtime-main.js.map": "/react-ipod/static/js/runtime-main.b9ab00ad.js.map",
+    "static/js/2.400625ad.chunk.js": "/react-ipod/static/js/2.400625ad.chunk.js",
+    "static/js/2.400625ad.chunk.js.map": "/react-ipod/static/js/2.400625ad.chunk.js.map",
+    "index.html": "/react-ipod/index.html",
+    "precache-manifest.0e3c2811bba8331422d382e54b29d671.js": "/react-ipod/precache-manifest.0e3c2811bba8331422d382e54b29d671.js",
+    "service-worker.js": "/react-ipod/service-worker.js",
+    "static/css/main.f50f0f23.chunk.css.map": "/react-ipod/static/css/main.f50f0f23.chunk.css.map",
+    "static/js/2.400625ad.chunk.js.LICENSE.txt": "/react-ipod/static/js/2.400625ad.chunk.js.LICENSE.txt",
+    "static/media/games.png": "/react-ipod/static/media/games.d7770aa6.png",
+    "static/media/img1.jpg": "/react-ipod/static/media/img1.a234ddf3.jpg",
+    "static/media/img2.jpeg": "/react-ipod/static/media/img2.216ca72e.jpeg",
+    "static/media/img3.jpg": "/react-ipod/static/media/img3.0c79dd3a.jpg",
+    "static/media/kutti.mp3": "/react-ipod/static/media/kutti.1d4751a5.mp3",
+    "static/media/settings.png": "/react-ipod/static/media/settings.8310ec95.png",
+    "static/media/vc.mp3": "/react-ipod/static/media/vc.3f3404bc.mp3",
+    "static/media/vr.mp3": "/react-ipod/static/media/vr.8d8ff49e.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9ab00ad.js",
+    "static/js/2.400625ad.chunk.js",
+    "static/css/main.f50f0f23.chunk.css",
+    "static/js/main.bd0be2bd.chunk.js"
+  ]
+}
