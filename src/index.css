@@ -5,9 +5,227 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(143, 51, 51);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* The whole ipod styles */
+
+.Ipod{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 35%;
+  width: 350px;
+  height: 500px;
+  background-color: rgb(182, 182, 27);
+  padding: 10px;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
+  border: solid black 5px;
+}
+
+
+/* The rotate button styles */
+.rotate-container{
+  margin-top: 20px;
+  margin-top: none;
+  height: auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle{
+  cursor: pointer;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: darkgray;
+  border: solid black 2px;
+}
+
+.menu{
+  position: relative;
+  background-color:inherit ;
+  left: 36%;
+  top: 6%;
+  max-width: 55px;
+}
+
+.forward{
+  position: relative;
+  background-color: inherit;
+  left : 85%;
+  top: 30%;
+  max-width: 20px;
+}
+
+.backward{
+  position: relative;
+  background-color: inherit;
+  top: 9%;
+  left: 5%;
+  max-width: 20px;
+}
+
+.playpause{
+  max-width: 30px;
+  background-color:inherit;
+  position: relative;
+  top: 60%;
+  left: 41%;
+}
+
+.mid{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  top: -20%;
+  left: 25%;
+  background-color: rgb(124, 121, 121);
+  border: solid black 2px;
+}
+
+li{
+  list-style: none;
+}
+
+/*  The display styles */
+.Display {
+  height: 46%;
+  width: 91%;
+  background-color: rgb(19, 172, 223);
+  display: flex;
+  flex-direction: column;
+  border: solid black 3px;
+}
+
+.dispheader{
+  position: relative;
+  text-align: center;
+  top: 20%;
+}
+
+/* Navbar styles */
+
+.navbar{
+  width: 100%;
+  height: 15%;
+  background-color: rgb(206, 236, 206);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.time{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/*Main menu styles*/
+
+.MainMenuContainer{
+  width: 100%;
+  height: 85%;
+  display: flex;
+  margin: none;
+  padding: none;
+  background-color: cyan;
+}
+
+.menubar{
+  background-color: linen;
+  height: 100%;
+  width: 50%;
+}
+
+.menubar li {
+  list-style: none;
+  margin-left:-40px;
+  text-align: center;
+  padding: 3px;
+}
+
+.sideImg{
+  height: 100%;
+  width: 50%;
+  margin: none;
+  padding: none;
+  background-color: rgb(187, 173, 201);
+}
+
+.sideImg img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.on{
+  background-color: lightslategrey;
+}
+
+/*Now playing styles*/
+
+.Nowplaying{
+  display: flex;
+  height: 85%;
+  width: 100%;
+  background-color: rgb(246, 242, 247);
+}
+
+.song_details{
+  height: 100%;
+  width: 50%;
+}
+
+.song_details img{
+  height: 100%;
+  width: 90%;
+}
+
+.prog{
+  background-color: rgb(194, 182, 182);
+  width: 120px;
+}
+
+#progress-bar {
+  height: 10px;
+  background-color:rgb(43, 248, 43);
+}
+
+.details_container{
+  height: 100%;
+}
+
+.music{
+  height: 85%;
+  background-color: darkkhaki;
+}
+
+.music h2{
+  text-align: center;
+}
+
+.music li{
+  text-align: center;
+  margin-left: -40px;
+  padding: 2.5px;
+}
+
+h1{
+  margin: none;
+  padding: none;
+}
+
+.mmheader{
+  text-align: center;
 }
